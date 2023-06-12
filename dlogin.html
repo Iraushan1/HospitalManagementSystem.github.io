@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Petient Login...</title>
+  <style>
+	body{
+		background-image:linear-gradient(to right, #0000cc , #660033);
+			
+			}
+  	div{
+	background-color:#99cc99;
+	width:350px;
+	margin-right:45%;
+	float:right;
+	text-align:center;
+	border:5px groove blue;
+	}
+
+	label{
+		text-align:center;
+		font-size:25px;
+		color:#3333cc;
+	}
+	span{
+		color:red;
+	}
+	input{
+		outline:none;
+		border:3px groove green;
+		font-size:25px;
+		color:green;
+		background-color:#ffffcc;
+		align:center;
+	}
+	a{
+		text-decoration:none;
+		border: 2px solid blue;
+		width: 50px;
+		height:20px;
+		color:#9933ff;
+		background-color:yellow;
+		font-size:25px;
+		border-radius: 0px 5px 0px 5px;
+		margin-right:20px;
+	}
+	#submit{
+			border-radius: 0px 5px 0px 5px;
+			background-color:#9933ff;
+			color:yellow;
+	}
+  </style>
+ </head>
+ <body>
+ <form action="dlog" method="post">
+  <div>
+  <br>
+	<label>UserName</label><span>*</span><br>
+	<input type="text" name="uname" required><br>
+	<label>Password</label><span>*</span><br>
+	<input type="password" name="pass" required><br><br><br>
+	<a href="index.html">Back</a>
+	<input id="submit" type="submit" value="Login"><br><br>
+	<a href="forgetpassword.html">forgot password?</a><br><br>
+	<a href="register.html">New User? Register Here..</a><br><br>
+  </div>
+  </form>
+ </body>
+</html>

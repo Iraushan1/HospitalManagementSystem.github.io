@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/Dell/Desktop/clinicJAva/new%20site/pregister.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+  	body{
+		background-color:#669999;
+	}
+	.div{
+		background-color:#efe089;
+		width:600px;
+		margin-left:30%;
+		border-radius:15px;
+	}
+	h1{
+		text-align:center;
+		color:#669966;
+	}
+	label{
+		margin-left:10px;
+		float:left;
+		color:#3333cc;
+		font-size:20px;
+	}
+	input,a,select,textarea{
+		background-color:#ffffff;
+		color:green;
+		font-size:20px;
+		float:right;
+		margin-right:10px;
+		width:200px;
+		outline:none;
+		border:none;
+		border-bottom:3px solid red;
+		
+	}
+	.back{
+		text-decoration:none;
+		float:left;
+		margin-left:30px;
+		width:150px;
+		text-align:center;
+		border:3px solid blue;
+		border-radius:15px;
+	}
+	.login{
+		margin-right:30px;
+		text-align:center;
+		border:3px solid blue;
+		border-radius:15px;
+	}
+	iframe{
+		width:100%;
+		border:none;
+	}
+  </style>
+ </head>
+ <body>
+ <iframe src="top.html" ></iframe>
+ <form action="preg" method="post">
+  <div class="div">
+  <br>
+  <div >
+	<h1><u><i>Petient Registration</i></u></h1>
+	<label>Name(नाम)</label><input type="text" name="pname" required=""><br><br>
+	<label>Gender(लिंग)</label><select name="gender"><option value="Male">Male</option><option value="Female">Female</option><option value="Third">Transgender</option></select><br><br>
+	<label>Date of Birth(जन्म)</label><input type="date" name="dob" required=""><br><br>
+	<label>District(जिला)</label><select name="disctrict"><script type="text/javascript">
+							var dis=["Select","Araria","Arwal","Aurangabad","Banka","Begusarai","Bhagalpur","Bhojpur","Buxar","Darbhanga","East Champaran","Gaya","Gopalganj","Jamui","Jehanabad","Kaimur","Katihar","Khagaria","Kishanganj","Lakhisarai","Madhepura","Madhubani","Munger","Muzaffarpur","Nalanda","Nawada","Patna","Purnia","Rohtas","Saharsa","Samastipur","Saran","Sheikhpura","Sheohar","Sitamarhi","Supaul","Vaishali","West Champaran"];
+								for(let i=0;i<dis.length;i++)
+									{
+										document.write("<option value="+dis[i]+">"+dis[i]+"</option>");
+									}
+								</script></select><br><br>
+	<label>Village/Mohalla(गांव/मोहल्ला)</label><input type="text" name="village" required=""><br><br>
+	<label>Photo(अपना फोटो)</label><input type="file" name="photo" required=""><br><br>
+	<label>Mobile No.(मोबाइल नं.)</label><input type="number" name="mob." required=""><br><br>
+	<label>New Password(नया पासवर्ड)</label><input type="number" name="pass" required=""><br><br>
+	<label>Conform Password(फिर पासवर्ड)</label><input type="number" name="pass" required=""><br><br><br>
+	<label>Problem(समस्या)</label><textarea rows="6" cols="5" name="problem" required></textarea><br><br>
+	</div>
+	<br><br><br><br><br><br><br><br>
+	<a class="back" href="index.html">Back</a>
+	<input class="login" type="submit" value="Login"><br><br><br><br>
+  </div><br>
+  </form>
+</body>
+</html>
